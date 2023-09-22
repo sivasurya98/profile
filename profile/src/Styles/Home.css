@@ -1,0 +1,32 @@
+
+.main-text{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+
+}
+.child-text{
+    font-weight: bold;
+    color: white;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.rotating-logo {
+    animation: rotate 5s linear infinite; /* Adjust animation duration as needed */
+  }
+  @media  screen and (max-width: 700px) {
+    .card{
+    }
+  }
+  /* @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } */
