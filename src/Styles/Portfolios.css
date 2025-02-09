@@ -1,0 +1,180 @@
+/* General Styles */
+.portfolio-container {
+    position: relative;
+    min-height: 100vh;
+    /* background-color: #000; */
+    color: #fff;
+    padding: 20px;
+    overflow: hidden;
+  }
+  .portfolio-container-product{
+    position: relative;
+    min-height: 100vh;
+    /* background-color: #000; */
+    color: #fff;
+    padding: 20px;
+    overflow: hidden;
+  }
+  
+  .portfolio-content {
+    position: relative;
+    z-index: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .portfolio-content-content{
+    position: relative;
+    z-index: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  .portfolio-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .portfolio-header-product{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .portfolio-header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #e50914; 
+  }
+  .portfolio-header-product h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .portfolio-header p {
+    font-size: 1.2rem;
+    color: #aaa;
+  }
+  
+  .portfolio-info-product {
+    flex: 1;
+    max-width: 600px;
+  }
+
+  .portfolio-info-product h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  .portfolio-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+  }
+  
+  .portfolio-image {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .portfolio-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(229, 9, 20, 0.5); /* Netflix red shadow */
+  }
+  
+  .portfolio-info {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .portfolio-info h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #e50914;
+  }
+  
+  .portfolio-info p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #ccc;
+  }
+  
+  /* Tech Stack Styles */
+  .tech-stack {
+    margin-top: 30px;
+  }
+  .tech-stack-product{
+    margin-top: 30px;
+  }
+  .tech-stack-product h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .tech-stack-product ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .tech-stack-product ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #ccc;
+  }
+  
+  .tech-stack h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #e50914;
+  }
+  
+  .tech-stack ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .tech-stack ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #ccc;
+  }
+
+  .project-link{
+    color: #ff4757;
+    text-decoration: none;
+  }
+  .project-link:hover {
+    text-decoration: underline;
+  }
+  .project-two-link{
+    color: red;
+    text-decoration: none;
+  }
+  .project-two-link:hover {
+    text-decoration: underline;
+  }
+  .portfolio-details-github{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .portfolio-details {
+      flex-direction: column;
+    }
+  
+    .portfolio-image {
+      max-width: 100%;
+    }
+  
+    .portfolio-info {
+      max-width: 100%;
+    }
+  }

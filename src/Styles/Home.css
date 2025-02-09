@@ -1,0 +1,120 @@
+
+.main-text{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    /* text-align: center; */
+}
+.child-text{
+    /* font-weight: bold; */
+    color: black;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* cursor: pointer; */
+}
+.rotating-logo {
+    animation: rotate 5s linear infinite; /* Adjust animation duration as needed */
+  }
+
+  /* @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } */
+
+  .portfolio-section {
+    padding: 20px;
+    /* background-color: #1e1e1e; */
+    margin-top: 3%;
+  }
+  
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+  .project-card {
+    background: #2c2c2c;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .project-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .project-links a {
+    margin: 0 10px;
+    color: #ff4757;
+    text-decoration: none;
+  }
+  
+  .project-links a:hover {
+    text-decoration: underline;
+  }
+
+  .testimonials-section {
+    padding: 20px;
+    background-color: #1e1e1e;
+  }
+  
+  .testimonial-card {
+    background: #2c2c2c;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+
+  .contact-section {
+    padding: 20px;
+    background-color: #1e1e1e;
+    text-align: center;
+  }
+  .contact-links{
+    display: flex;
+    justify-content: center;
+  }
+  .contact-links a {
+    margin: 0 10px;
+    color: #ff4757;
+    text-decoration: none;
+  }
+  
+  .contact-links a:hover {
+    text-decoration: underline;
+  }
+  .project-image{
+    width: 100px;
+  }
+
+  @media  screen and (max-width: 700px) {
+    .card{
+      display: flex;
+      flex-direction: column;
+    }
+    .contact-links{
+      display: flex;
+      flex-direction: column;
+      margin-left: 30%;
+    }
+    .main-text{
+      font-size: 25px;
+      font-weight: bold;
+      color: white;
+      text-align: center;
+  }
+  }
